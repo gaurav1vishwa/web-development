@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css size units</title>
+</head>
+<style>
+    div {
+
+        box-sizing: border-box;
+        border: 3px solid blue;
+        background-color: aqua;
+        color: rgb(240, 113, 9);
+
+        margin: auto;
+        font-size: 18px;
+
+    }
+
+    p {
+        box-sizing: border-box;
+        border: 3px solid rgb(56, 14, 38);
+        background-color: aqua;
+        color: rgb(26, 25, 24);
+
+        margin: 20px;
+        font-size: 2em;
+    }
+
+    div>p {
+        box-sizing: border-box;
+        border: 3px solid rgb(56, 14, 38);
+        background-color: rgb(173, 184, 184);
+        color: rgb(26, 25, 24);
+
+        margin: 20px;
+        font-size: 2em;
+    }
+
+    div >p >p {
+        box-sizing: border-box;
+        border: 3px solid rgb(56, 14, 38);
+        background-color: rgb(20, 22, 158);
+        color: rgb(26, 25, 24);
+
+        margin: 20px;
+        font-size: 2rem;
+    }
+</style>
+
+<body>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam voluptatibus iste hic quam soluta odit dolor,
+        modi perferendis vero possimus labore nobis numquam.
+    </p>
+
+    <div>
+        hey this is a contaner
+        <p>
+            hey this is first paragraph.
+        </p>
+        <p>
+            hey! this is second paragraph
+        </p>
+
+    </div>
+
+
+
+</body>
+
+</html>

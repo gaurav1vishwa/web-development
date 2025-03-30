@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simple exercise to style a html para (without using any id and classes )</title>
+</head>
+<style>
+
+    p:first-child {
+        color : white;
+        background-color: chartreuse;
+     
+ }
+
+    div > p:nth-child(3) {
+        color:black;
+        background-color: magenta;
+    }
+    div p {
+        color :black;
+        background-color: blueviolet;
+    }
+
+
+</style>
+<body>
+    <div>
+        <p>
+        this is a simple paragraph
+       
+        </p>
+        <p>
+          this is another paragraph
+        </p>
+        <p>
+         this is a third paragraph 
+        </p>
+    </div>
+    
+</body>
+</html>
