@@ -1,0 +1,99 @@
+html {
+    background-color: rgb(243, 229, 229);
+
+}
+
+div {
+    background-color: white;
+
+    border: 2px slategrey solid;
+    margin: 113px;
+    width: 40vw;
+    height: 120vh;
+    position: relative;
+    left: 293px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+img {
+    margin: 17px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.li {
+    list-style: none;
+
+    display: inline-block;
+    font-size: 20px;
+    border: 2px slategrey solid;
+    text-align: center;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px;
+    margin-top: 1 px;
+    color: slategray;
+    text-decoration: none;
+
+
+
+}
+
+.l1 {
+    position: relative;
+    left: 20px;
+
+}
+
+.l2 {
+    position: relative;
+    left: 40px;
+}
+
+.l3 {
+    position: relative;
+    left: 60px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.content {
+    font-size: 20px;
+    padding: 20px
+}
+
+span {
+    color: rgb(18, 190, 104);
+    background-color: rgb(137, 137, 196);
+    position: absolute;
+    left: 200px;
+
+
+    border: 2px solid slategray;
+    border-radius: 15px 15px 15px 15px;
+    padding: 5px
+}
+
+.a1 {
+    text-decoration: none;
+}
+
+.a2 {
+    text-decoration: none;
+}
+
+.a3 {
+    text-decoration: none;
+}
+
+.a4 {
+    text-decoration: none;
+}
+
+
+.a4:hover {
+   background-color:rgb(193, 177, 202);
+}
+.a4:visited {
+    color: rgb(31, 2, 6);
+  }
