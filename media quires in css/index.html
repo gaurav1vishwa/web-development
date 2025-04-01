@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>media quires in css</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(184, 82, 82, 0.144);
+        }
+        /*
+        
+        @media screen and (orientation: portrait) {
+            body{
+                border: 2px solid purple;
+            }
+                */
+
+        @media only screen and (max-width:500px) {
+            body {
+                background-color: purple;
+            }
+
+            .d1{
+                flex-direction: column;
+                background-color: rgb(180, 43, 66);
+            }
+        }
+
+        .d1 {
+            display: flex;
+        }
+
+        .p {
+
+            border: 5px solid blue;
+            margin: 5px;
+
+            width: 50vw;
+
+            height: 5ovh;
+            padding: 10px;
+            background-color: rgb(57, 179, 109);
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sit eius ducimus enim tenetur, iure dicta.
+        Magnam delectus, repellendus nobis et maxime sequi adipisci dolor fugit velit beatae maiores. Temporibus sint
+        inventore placeat qui nam sequi quidem error, quisquam reiciendis voluptates impedit voluptas cupiditate cumque.
+    </div>
+    <div class="d1">
+        <p class="p p1 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati minima harum accusamus.</p>
+        <p class="p p2 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio odit error cumque quisquam.
+        </p>
+        <p class="p p3 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus dicta molestiae
+            perferendis?</p>
+    </div>
+
+</body>
+
+</html>

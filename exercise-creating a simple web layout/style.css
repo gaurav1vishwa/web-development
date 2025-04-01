@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+   
+    width: 100%;
+    height: 100%;
+}
+
+
+ul {
+    list-style: none;
+    background-color: aquamarine;
+    display: flex;
+
+
+
+}
+header {
+    position: sticky;
+    top: 0;
+}
+
+.d1 {
+    position: sticky;
+    top: 0;
+
+}
+
+.li {
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: red;
+
+}
+
+.d2 {
+    border: 4px solid rgb(197, 20, 49);
+
+}
+
+.d2 {
+    display: flex;
+    background-color: rgb(101, 226, 43);
+}
+
+.d2 :nth-child(1) {
+    background-color: blueviolet;
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+}
+
+.d2 :nth-child(2) {
+    background-color: blueviolet;
+    border: 2px solid rgb(17, 1, 17);
+    width: 50%;
+    height: auto;
+    margin: 15px;
+    padding: 10px;
+    position: relative;
+}
+
+.d3 {
+    border: 2px solid purple;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    padding: 3px;
+}
+
+.d4 {
+    border: 2px solid rgb(14, 105, 133);
+    text-align: center;
+    margin-top: 20px;
+    padding: 3px;
+}
+
+img {
+    position: absolute;
+    right: 5px;
+    bottom: 2px;
+    position: fixed;
+    border-radius: 50px;
+    
+}

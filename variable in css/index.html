@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vairable in css</title>
+    <style>
+        /*   
+        we can use the css variable for mulitple things like for color, different sizing units  and many more as well 
+        */
+
+        :root {
+            /*   
+            global variables;
+            */
+            --c1: rgb(204, 114, 114);
+            --c2: 20px;
+            --b3:rgb(94, 14, 185);
+
+        }
+
+        body {
+            background-color: aquamarine;
+            margin: 0;
+            padding: 0;
+
+        }
+
+        .ul {
+
+
+            border: 2px solid silver;
+            padding: 7px;
+
+            margin: 5px;
+            display: flex;
+
+
+
+
+        }
+
+        .li1 {
+            background-color: var(--c1);
+            padding: var(--c2)
+        }
+
+        .li2 {
+            /*   
+            local variables;
+            */
+            --b1: rgb(57, 216, 123);
+
+            background-color: var(--b1);
+            justify-content: right;
+
+        }
+
+        .li3 {
+            background-color: var(--c1);
+            justify-content: var(--b2);
+        }
+        .container{
+            background-color: var(--b3);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li class="ul li1">
+                home
+            </li>
+            <li class="ul li2">
+                about
+            </li>
+            <li class="ul li3">
+                contact
+            </li>
+
+        </ul>
+    </div>
+    <div class=" container">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, ex sequi aspernatur vel tenetur sit totam!
+        Laboriosam, ad vitae! Incidunt, illo dicta. Harum!
+    </div>
+
+</body>
+
+</html>
