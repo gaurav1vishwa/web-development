@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selectors</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            background-color: beige;
+        }
+
+        .container1 * {
+            border: 2px solid blue;
+            margin: 5px;
+            padding: 4px;
+            text-align: center;
+        }
+
+        .container1 :first-child {
+            background-color: aqua;
+        }
+
+        /*
+        .container1 :last-child{
+            background-color: aquamarine;
+        }
+         */
+
+        .container1p:nth-child(even) {
+            color: purple;
+        }
+
+        .container1p:nth-child(odd) {
+            color: rgb(179, 26, 26);
+        }
+
+        .container1p:nth-child(3) {
+            background-color: rgb(221, 111, 111);
+        }
+
+        .container2 .container2p {
+            border: 2px solid rgb(3, 80, 29);
+            margin: 5px;
+            padding: 4px;
+            text-align: center;
+        }
+
+        [color="primary color"] {
+            background-color: rgb(88, 88, 202);
+        }
+
+        [color="secondary color"] {
+            background-color: rgb(50, 170, 164);
+        }
+
+        .container1::before {
+            content: hey this is gaurav;
+        }
+
+        .container1::after {
+            content: thankyou;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container1">
+        <p class="container1p p1">this is first paragraph</p>
+        <p class="container1p p2">this is second paragraph</p>
+        <p class="container1p p3">this is third one paragaraph</p>
+        <p class="container1p p4">this is fourth paragraph</p>
+    </div>
+    <div class="container2">
+        <p color="primary color" class="container2p p5">this is first paragraph of container2</p>
+        <p class="container2p p6">this is second paragraph of container2</p>
+        <p color="secondary color" class="container2p p7">this is third one paragaraph of container2</p>
+        <p class="container2p pf8">this is fourth paragraph of container2</p>
+    </div>
+</body>
+
+</html>
