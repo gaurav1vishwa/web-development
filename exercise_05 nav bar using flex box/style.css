@@ -1,0 +1,119 @@
+.navigation {
+    display: flex;
+    position: relative;
+    list-style: none;
+    font-size: medium;
+    left: 30px;
+    top: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+ol {
+    display: flex;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.icon_03:hover {
+    background-color: peru;
+}
+
+.icon:hover {
+    background-color: peru;
+}
+
+.search:hover {
+    background-color: peru;
+}
+
+ol li select:hover {
+    background-color: peru;
+}
+
+li {
+    padding: 20px;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+select {
+    border: none;
+    background-color: white;
+    text-align: center;
+}
+
+.search {
+    margin: 20px;
+    text-decoration: none;
+}
+
+input[type="text"] {
+    border: none;
+}
+
+main .container {
+    /* border: 2px solid black; */
+    /* background-color: rgb(138, 67, 67); */
+    width: 80vw;
+    height: 50vh;
+    display: flex;
+    position: relative;
+    top: 53px;
+    left: 138px;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+main .p1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+main .container_01 .p2 {
+    text-align: center;
+}
+
+main .container .p1 .p2 {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+main .container .container_01 .p2:hover {
+    background-color: peru;
+
+}
+
+main .container .container_02 .p3 {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    top: 30px;
+    font-size: 30px;
+}
+
+main .container .container_02 .box {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    top: 85px;
+}
+
+main .container .container_02 .box:hover {
+    background-color: rgb(206, 206, 235);
+}
